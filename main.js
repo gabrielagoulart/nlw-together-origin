@@ -1,3 +1,4 @@
+
 //ABRE E FECHA O MENU AO CLICAR NO ICONE
 const nav = document.querySelector('#header nav')
 const toggle = document.querySelectorAll('nav .toggle')
@@ -30,3 +31,11 @@ window.addEventListener('scroll', function() {
 })
 
 //TESTIMONIALS SLIDER
+const swiper = new Swiper('.swiper-container', {
+    slidesPerView: 1,
+    pagination: {
+        el: '.swiper-pagination'
+    },
+    mousewheel: true,
+    keyboard: true
+})
