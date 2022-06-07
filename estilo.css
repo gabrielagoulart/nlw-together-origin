@@ -600,6 +600,7 @@ footer .social a:hover {
         order: 0;
         max-width: 24rem;
         text-align: left;
+        margin-right: 10rem; /*arruma a margin entre a img mas n alinha com a logo*/
     }
 
     main {
