@@ -560,6 +560,14 @@ footer .social a:hover {
         padding: 10rem 0;
     }
 
+    .section header,
+    #testimonials header {
+        max-width: 32rem;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .button {
         height: 3.125rem;
     }
@@ -584,6 +592,11 @@ footer .social a:hover {
         display: none;
     }
 
+    /* ======= LAYOUT ========*/
+    main {
+        margin-top: var(--header-height);
+    }
+
     /* ======= HOME ========*/
 
     #home .container {
@@ -600,11 +613,28 @@ footer .social a:hover {
         order: 0;
         max-width: 24rem;
         text-align: left;
-        margin-right: 10rem; /*arruma a margin entre a img mas n alinha com a logo*/
     }
 
-    main {
-        margin-top: var(--header-height);
+    /* ======= ABOUT ========*/
+    #about .container {
+        margin: 0 auto;
+        grid-auto-flow: column;
+    }
+
+    /* ======= SERVICES ========*/
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .card {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    /* ======= TESTIMONIALS ========*/
+    #testimonials .container {
+        margin-left: auto;
+        margin-right: auto;
     }
     
 }
