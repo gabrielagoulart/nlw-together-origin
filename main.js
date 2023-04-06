@@ -9,7 +9,7 @@ for (const element of toggle) {
     })
 }
 
-//AO CLICAR NO INCONE DO MENU, ELE SERA ESCONDIDO
+//AO CLICAR NO íCONE DO MENU, ELE SERA ESCONDIDO
 const links = document.querySelectorAll('nav ul li a')
 
 for(const link of links) {
